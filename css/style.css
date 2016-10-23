@@ -187,7 +187,7 @@ div {
 	width: 138px;
 	height: 43px;
 	z-index: 8;
-	left: 560px;
+	left: 565px;
 	top: 191px;
 	color: #FFFFFF;
 }
@@ -196,7 +196,7 @@ div {
 	width: 39px;
 	height: 18px;
 	z-index: 9;
-	left: 523px;
+	left: 545px;
 	top: 184px;
 }
         .class body section article p {
@@ -243,8 +243,9 @@ div {
 	left: 436px;
 	top: 980px;
 	font-size: 12px;
-	color: #FFF;
+	color:#FFF;
 }
+
         #apDiv26 {
 	position: absolute;
 	width: 576px;
@@ -253,7 +254,7 @@ div {
 	left: 328px;
 	top: 996px;
 	font-size: 12px;
-	color: #FFF;
+	color:#FFF;
 }
         #apDiv27 {
 	position: absolute;
@@ -314,19 +315,23 @@ nav{
 	color: #006680;
 }
 ul{
-margin: auto;
-padding-top: 4px;
+margin-top:auto;
+margin-left: -30px;
+padding-top: 7px;
 }
 li{
 	float: left;
 	list-style-type: none;
-	padding: 13px;
+	padding: 10px;
 	background: #003f5e;
 	margin: 3px;
 	border-radius: 7px;
-	box-shadow: inset 0px 0px 10px white;
+	box-shadow: inset 0px 0px 5px white;
 	margin-top: 7px;
+	min-width:80px;
 }
+
+
 section{
 	width: 713px;
 	background: white;
@@ -373,22 +378,25 @@ p{
 	text-align: justify;
 }
 
-
-
 .menu li:hover ul {
         display:block;
         position: absolute;
         padding: 0;
         margin:-16px;
         margin-top:10px;
-        width: 10px;
-        float: none;
+        min-width:100px;
+		float:left;
                 }
 .menu  li ul {
         display:none;
         position:absolute;
-        min-width:130px;
+        min-width:80px;
+		max-width:80px;
+		margin-top:1px;
         }
+	
+
+		
 /*CLASES*/
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
